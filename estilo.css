@@ -1,0 +1,126 @@
+/* layout */
+
+html, body, .capa{
+	height: 100%;
+}
+
+body{
+	background: url('imagens/capa.png'),
+				url('imagens/ruido.png'),
+				linear-gradient(50deg,#ff4169,#7c26f8);
+	background-attachment: fixed;
+	font-family: Circular,Helvetica,Arial,sans-serif;
+}
+
+
+
+
+/* Barra de Navegação */
+.img-logo {
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('imagens/spotify.svg');
+	background-size: contain;
+	color: transparent;
+}
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+.navbar-brand {
+	padding: 5px 15px;
+}
+
+.divider{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #9bf0e1;
+}
+
+/* Capa Principal */
+.capa {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.texto-capa {
+	text-align: center;
+	color: white;
+}
+
+.btn-capa {
+	padding: 10px 35px;
+	border-radius: 500px;
+	margin-right: 8px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: background 0.4s, color 0.4s;
+}
+
+#obtenha-sp{
+	background: transparent;
+	border: 2px solid #fff;
+}
+
+#obtenha-sp:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+#aproveite-sp{
+	background-color: #7c25f8;
+	color: #fff;
+}
+
+#aproveite-sp:hover {
+	background-color: #6207e3;
+}
+
+/*Sobre-Spotify*/
+.sobre-spotify{
+	background-color: #fff;
+}
+
+.spotify-tem h2{
+ 	font-size: 48px;
+ 	font-weight: 900;
+ 	line-height: 1.2;
+ 	letter-spacing: -.02em;
+}
+
+.spotify-tem h3{
+	font-size: 24px;
+	letter-spacing: -.01em;
+	font-weight: 900;
+}
+
+.spotify-tem p{
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+.imgs-spotify img{
+	width: 250px;
+	height: 250px;
+}
+
+ /*Tipografia */
+h1{
+	font-size: 100px;
+	letter-spacing: -0.05em;
+}
