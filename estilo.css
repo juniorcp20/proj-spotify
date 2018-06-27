@@ -10,10 +10,8 @@ body{
 				linear-gradient(50deg,#ff4169,#7c26f8);
 	background-attachment: fixed;
 	font-family: Circular,Helvetica,Arial,sans-serif;
+	overflow-x: hidden;
 }
-
-
-
 
 /* Barra de Navegação */
 .img-logo {
@@ -90,37 +88,77 @@ nav.navbar-transparente {
 	background-color: #6207e3;
 }
 
-/*Sobre-Spotify*/
-.sobre-spotify{
+/*Section Serviços*/
+#servicos{
 	background-color: #fff;
+	padding: 48px 0;
 }
 
-.spotify-tem h2{
+.imgs-spotify img{
+	padding: 5px;
+}
+
+/*Section Características*/
+#caracteristicas{
+	padding: 20px 0;
+	color: #fff;
+}
+
+.rotacionar{
+	transform: rotate(30deg);
+	-ms-transform: translate(30deg);
+    -webkit-transform: translate(30deg);
+    padding-left: 80px;
+}
+
+/*Footer*/
+#rodape{
+	background-color: #000;
+	position: relative;
+	padding: 50px 0;
+}
+
+.ul-rodape.nav>li>a{
+	padding: 10px 0;
+	display: inline-block;		
+}
+
+.ul-rodape.nav>li>a:hover{
+	background-color: transparent;
+	color: #1ed760;
+}
+
+.ul-rodape a{
+	color: #fff;
+}
+
+.item-rede-social{
+	float: right;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+ /*Tipografia */
+}
+h1{
+	font-size: 100px;
+	letter-spacing: -0.05em;
+}
+
+h2{
  	font-size: 48px;
  	font-weight: 900;
  	line-height: 1.2;
  	letter-spacing: -.02em;
 }
 
-.spotify-tem h3{
+h3{
 	font-size: 24px;
 	letter-spacing: -.01em;
 	font-weight: 900;
 }
 
-.spotify-tem p{
+p{
 	font-size: 18px;
 	line-height: 1.5;
 	font-weight: 400;
-}
-
-.imgs-spotify img{
-	width: 250px;
-	height: 250px;
-}
-
- /*Tipografia */
-h1{
-	font-size: 100px;
-	letter-spacing: -0.05em;
 }
